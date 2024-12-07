@@ -23,7 +23,7 @@
         </div>
         <div class="navbar-end flex gap-2">
           <img src="assets/coin.png" alt="coin" />
-          <a class="font-bold">5500 <span>BDT</span></a>
+          <a id="cash-for-donet" class="font-bold">5500</a> <span class="text-xs font-bold"> BDT</span>
         </div>
       </div>
       <div class="flex justify-center gap-4 mt-9">
@@ -33,19 +33,29 @@
     </nav>
     <main class="mx-auto max-w-6xl">
       <!-- noakhali -->
-      <div class="hero bg-base-200 rounded-lg broder mt-5">
+      <div id="noakhali" class="hero bg-base-200 rounded-lg broder mt-5">
         <div class="hero-content flex-col lg:flex-row lg:gap-10">
-          <img src="assets/noakhali.png" class="max-w-full rounded-lg shadow-2xl" />
+          <img
+            src="assets/noakhali.png"
+            class="max-w-full rounded-lg shadow-2xl"
+          />
           <div>
             <div class="flex items-center gap-4">
               <img src="assets/coin.png" alt="" />
-              <h1 class="text-xl font-bold">0 BDT</h1>
+              <h1 id="donationMoney-noakhali" class="text-xl font-bold">
+                0 
+              </h1><span class="text-xl font-bold"> BDT</span>
             </div>
-            <h1 id="title" class="text-2xl font-bold">
+            <h1 id="title-noakhali" class="text-2xl font-bold">
               Donate for Flood at Noakhali, Bangladesh
             </h1>
             <p class="py-3">
-              The recent floods in Noakhali have caused significant damage to homes infrastructure. Your donation will help provide essential supplies and to those affected by this disaster. Every contribution, big or small, makes a difference. Please join us in supporting the relief efforts and making a positive impact on the lives of those in need.
+              The recent floods in Noakhali have caused significant damage to
+              homes infrastructure. Your donation will help provide essential
+              supplies and to those affected by this disaster. Every
+              contribution, big or small, makes a difference. Please join us in
+              supporting the relief efforts and making a positive impact on the
+              lives of those in need.
             </p>
             <input
               id="donetion-noakhali-value"
@@ -53,31 +63,40 @@
               type="text"
               placeholder="Write Donation Amount"
             />
-            <button id="donation-noakhali" class="btn bg-lime-400 w-full font-bold">Donate Now</button>
+            <button
+              id="donation-noakhali"
+              class="btn bg-lime-400 w-full font-bold donate-now-button"
+              data-cause="noakhali"
+            >
+              Donate Now
+            </button>
           </div>
         </div>
       </div>
-<!-- feni -->
-      <div class="hero bg-base-200 rounded-lg broder mt-5">
+      <!-- feni -->
+      <div id="feni" class="hero bg-base-200 rounded-lg broder mt-5">
         <div class="hero-content flex-col lg:flex-row lg:gap-10">
           <img src="assets/feni.png" class="max-w-full rounded-lg shadow-2xl" />
           <div>
             <div class="flex items-center gap-4">
               <img src="assets/coin.png" alt="" />
-              <h1 class="text-xl font-bold">0 BDT</h1>
+              <h1 id="donationMoney-feni" class="text-xl font-bold">500</h1><span class="text-xl font-bold"> BDT</span>
             </div>
-            <h1 class="text-2xl font-bold">
-              Donate for Flood at Noakhali, Bangladesh
+            <h1 id="title-feni" class="text-2xl font-bold">
+              Donate for Flood Relief in Feni,Bangladesh
             </h1>
             <p class="py-3">
-              The recent floods in Noakhali have caused significant damage to
-              homes infrastructure. Your donation will help provide essential
-              supplies and to those affected by this disaster. Every
-              contribution, big or small, makes difference. Please join us in
-              supporting the relief efforts and making a positive impact on the
-              lives of those in need.
+              The recent floods in Feni have devastated local communities,
+              leading to severe disruption and loss. Your generous donation will
+              help provide immediate aid, including food, clean water, and
+              medical supplies, to those affected by this calamity. Together, we
+              can offer crucial support and help rebuild lives in the aftermath
+              of this disaster. Every contribution counts towards making a real
+              difference. Please consider donating today to assist those in
+              urgent need.
             </p>
             <input
+            id="donetion-feni-value"
               class="w-full h-10 mb-3 rounded-xl border p-6"
               type="text"
               placeholder="Write Donation Amount"
@@ -86,27 +105,35 @@
           </div>
         </div>
       </div>
-<!-- quta protest -->
-      <div class="hero bg-base-200 rounded-lg broder mt-5">
+      <!-- quta protest -->
+      <div id="quta" class="hero bg-base-200 rounded-lg broder mt-5">
         <div class="hero-content flex-col lg:flex-row lg:gap-10">
-          <img src="assets/quota-protest.png" class="max-w-full rounded-lg shadow-2xl" />
+          <img
+            src="assets/quota-protest.png"
+            class="max-w-full rounded-lg shadow-2xl"
+          />
           <div>
             <div class="flex items-center gap-4">
               <img src="assets/coin.png" alt="" />
-              <h1 class="text-xl font-bold">0 BDT</h1>
+              <h1 id="donationMoney-quta" class="text-xl font-bold">2500</h1> <span class="text-xl font-bold"> BDT</span>
             </div>
-            <h1 class="text-2xl font-bold">
-              Donate for Flood at Noakhali, Bangladesh
+            <h1 id="title-quta" class="text-2xl font-bold">
+              Aid for Injured in the Quota Movement
             </h1>
             <p class="py-3">
-              The recent floods in Noakhali have caused significant damage to
-              homes infrastructure. Your donation will help provide essential
-              supplies and to those affected by this disaster. Every
-              contribution, big or small, makes difference. Please join us in
-              supporting the relief efforts and making a positive impact on the
-              lives of those in need.
+              The recent Quota movement has resulted in numerous injuries and
+              significant hardship for many individuals. Your support is crucial
+              in providing medical assistance, rehabilitation, and necessary
+              supplies to those affected. By contributing, you help ensure that
+              injured individuals receive the care and support they need during
+              this challenging time. Every donation plays a vital role in
+              alleviating their suffering and aiding in their recovery. Please
+              consider making a donation to support these brave individuals in
+              their time of need.
             </p>
             <input
+            id="donetion-quta-value"
+
               class="w-full h-10 mb-3 rounded-xl border p-6"
               type="text"
               placeholder="Write Donation Amount"
