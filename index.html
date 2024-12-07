@@ -138,13 +138,27 @@
               type="text"
               placeholder="Write Donation Amount"
             />
-            <button class="btn bg-lime-400 w-full font-bold">Donate Now</button>
+            <button id="donation-quta" class="btn bg-lime-400 w-full font-bold">Donate Now</button>
           </div>
         </div>
       </div>
     </main>
+    <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+      <div class="modal-box">
+        <h3 class="text-4xl text-center font-bold">Congratulation!</h3>
+        <img class="w-12 h-12 my-2 mx-auto " src="assets/coin.png" alt="">
+        <p id="modal-message" class="py-2 text-center text-2xl">You Have Doneted</p>
+        <h1  class="text-2xl text-center font-bold">Sucsessfully</h1>
+        <div class="modal-action">
+          <form method="dialog">
+            <button class="btn">Close</button>
+          </form>
+        </div>
+      </div>
+    </dialog>
     <script src="js/utilities.js"></script>
     <script src="js/donetionNoakhali.js"></script>
     <script src="js/donetionFeni.js"></script>
+    <script src="js/donetionQuta.js"></script>
   </body>
 </html>

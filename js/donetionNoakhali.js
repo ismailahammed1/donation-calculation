@@ -21,4 +21,8 @@ document.getElementById("donation-noakhali")
   const newCashBalance = cashDonet - addNoakhaliDonate;
   document.getElementById("donationMoney-noakhali").innerText = newBalance.toFixed(2);
   document.getElementById("cash-for-donet").innerText = newCashBalance.toFixed(2);
+  const modal = document.getElementById("my_modal_5");
+  modal.showModal();
+
+  console.log("New Balance:", newBalance, "New Cash Balance:", newCashBalance);
 });
