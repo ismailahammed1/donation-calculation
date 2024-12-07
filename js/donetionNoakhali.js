@@ -7,8 +7,12 @@ document.getElementById("donation-noakhali")
 
   const cashDonet = getDonationTextValue("cash-for-donet");
 
-  if (isNaN(addNoakhaliDonate)) {
+  if (isNaN(addNoakhaliDonate)|| addNoakhaliDonate<=0) {
     alert("Please enter a valid donation amount.");
+    return;
+  }
+  if (cashDonet<addDonate) {
+    alert("Insufficient balance to make the donation.");
     return; 
   }
 
