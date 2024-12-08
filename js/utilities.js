@@ -1,6 +1,7 @@
 function getInputFieldValueById(id) {
-    const value = document.getElementById(id).value;
-    return parseFloat(value) || 0;
+    const myInputvalue = document.getElementById(id).value;
+    return parseFloat(myInputvalue) || 0;
+   
   }
   
   function getDonationTextValue(id) {

@@ -22,13 +22,14 @@ document.getElementById("donation-quta")
   const newCashBalance = cashDonet - addqutaDonate;
   document.getElementById("donationMoney-quta").innerText = newBalance.toFixed(2);
   document.getElementById("cash-for-donet").innerText = newCashBalance.toFixed(2);
+  document.getElementById("donetion-quta-value").value = ""; 
   const modal = document.getElementById("my_modal_5");
   modal.showModal();
     const historyDiv = document.createElement('div');
   historyDiv.classList.add('hero', 'bg-base-200', 'rounded-lg', 'border', 'mt-5');
   historyDiv.innerHTML = `
     <div class="hero-content flex-col"> 
-      <h1 class="text-xl font-bold">${newBalance} Taka donated for ${title}</h1>
+      <h1 class="text-xl font-bold">${addqutaDonate} Taka donated for ${title}</h1>
       <p class="py-2">${new Date()}</p>
     </div>
   `;
