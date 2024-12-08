@@ -21,55 +21,79 @@
           Frequently Asked Questions
         </h2>
         <p class="mt-4 mb-8 dark:text-gray-600">
-        Importent to Me this Questions
+          Importent to Me this Questions
         </p>
         <div class="space-y-4">
           <details class="w-full border rounded-lg">
             <summary
               class="px-4 py-6 focus:outline-none focus-visible:dark:ring-violet-600"
             >
-            What is the Document Object Model (DOM)?
+              What is the Document Object Model (DOM)?
             </summary>
             <p class="px-4 py-6 pt-0 ml-4 -mt-4 dark:text-gray-600">
-              Lectus iaculis orci metus vitae ligula dictum per. Nisl per nullam
-              taciti at adipiscing est.
+              The HTML DOM (Document Object Model) is a programming interface
+              that represents the structure of a web page in a way that
+              programming languages like JavaScript can understand and
+              manipulate. The tree starts with the root node (usually < html >
+              in an HTML document) and branches out to child nodes (such as <
+              head >,< body> < head> div >, etc.).
             </p>
           </details>
           <details class="w-full border rounded-lg">
             <summary
               class="px-4 py-6 focus:outline-none focus-visible:dark:ring-violet-600"
             >
-            How do you select an element from the DOM?
-
+              How do you select an element from the DOM?
             </summary>
             <p class="px-4 py-6 pt-0 ml-4 -mt-4 dark:text-gray-600">
-              Tincidunt ut hac condimentum rhoncus phasellus nostra. Magna
-              porttitor egestas tincidunt neque vehicula potenti.
+              To select an element from the DOM (Document Object Model), you can
+              use several methods provided by JavaScript. These methods allow
+              you to access, manipulate, and interact with HTML elements on a
+              webpage. Here are some of the most commonly used methods for
+              selecting DOM elements: getElementById – search element by
+              element_id getElementsByTagName – search element by tag name
+              (e.g., span, div) getElementsByClassName – search element by class
+              name getElementsByName – search element by name attribute
+              querySelector – returns the first element that matches the
+              specified selector querySelectorAll – returns elements that match
+              the specified selector
             </p>
           </details>
           <details class="w-full border rounded-lg">
             <summary
               class="px-4 py-6 focus:outline-none focus-visible:dark:ring-violet-600"
             >
-            What is event delegation in the context of the DOM, and why is it useful?
-
+              What is event delegation in the context of the DOM, and why is it
+              useful?
             </summary>
             <p class="px-4 py-6 pt-0 ml-4 -mt-4 dark:text-gray-600">
-              Justo libero tellus integer tincidunt justo semper consequat
-              venenatis aliquet imperdiet. Ultricies urna proin fusce nulla
-              pretium sodales vel magna et massa euismod vulputate sed.
+              Event delegation is a powerful technique that simplifies event
+              handling, improves performance, and enhances the flexibility of
+              your code. By leveraging the event bubbling mechanism, you can
+              efficiently manage events on a group of elements rather than
+              dealing with each one individually.
             </p>
           </details>
           <details class="w-full border rounded-lg">
             <summary
               class="px-4 py-6 focus:outline-none focus-visible:dark:ring-violet-600"
             >
-            How do you manipulate an element's attributes and styles using the DOM?
+              How do you manipulate an element's attributes and styles using the
+              DOM?
             </summary>
             <p class="px-4 py-6 pt-0 ml-4 -mt-4 dark:text-gray-600">
-              Justo libero tellus integer tincidunt justo semper consequat
-              venenatis aliquet imperdiet. Ultricies urna proin fusce nulla
-              pretium sodales vel magna et massa euismod vulputate sed.
+              You can manipulate an element's attributes and styles using
+              JavaScript through the DOM (Document Object Model). Here are some
+              common methods to do that: let element =
+              document.getElementById("myElement"); let attributeValue =
+              element.getAttribute("attributeName");
+              console.log(attributeValue);            
+              element.setAttribute("attributeName", "newValue");
+              element.removeAttribute("attributeName");
+              element.style.backgroundColor = "yellow";
+              element.classList.add("new-class");
+        
+              element.classList.remove("old-class");
             </p>
           </details>
         </div>
